@@ -12,6 +12,6 @@
 
 ---
 
-# [Hello, Lemina\! (revised)](hello-lemina.md)
+# [Hello, Lemina\! (revised)](hello-lemina-revised.md)
 
 © Copyright 2025 Rex Young. All Rights Reserved.

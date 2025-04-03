@@ -9,9 +9,3 @@
 # [Hello, Lemina\!](hello-lemina.md)
 
 © Copyright 2024 Rex Young. All Rights Reserved.
-
----
-
-# [Hello, Lemina\! (revised)](hello-lemina-revised.md)
-
-© Copyright 2025 Rex Young. All Rights Reserved.

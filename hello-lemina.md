@@ -11,7 +11,7 @@
 
 # Part 1 — Programming's Evolving Path
 
-Computer programming is a fascinating technique deeply ingrained in the CPU's operation. It shares common developmental threads with machine-operating techniques like car driving. Both programming and driving have evolved along similar paths to achieve **operational efficiency** on parallel development tracks. This human-centered evolution of programming, a journey we can all relate to, is at the heart of our discussion.
+Computer programming, a **remarkable craft**, is woven into the CPU's very operation. It shares developmental threads with machine-operating techniques like car driving. Both have evolved along parallel paths to achieve **operational efficiency**. This *human-centered evolution* of programming, a journey we all recognize—drives our discussion.
 
 At the dawn of every newly invented machine, users had to adapt to its limitations. The first modern car, the *Benz Patent-Motorwagen No. 1*, built in 1885 by Karl Benz, forced people to use a centered steering crank instead of a steering wheel and a left-handed gas-and-brake handle instead of pedals to drive.
 
@@ -30,7 +30,7 @@ As early automobiles began with simple mechanics, early programming began with *
 
 A word is the size of CPU registers and memory units. The Intel CPU 8088, used by the first IBM personal computer released in 1981, was 8 bits, which could hold a number ranging from 0 to 255 (or from \-128 to 127 with a sign). If a number larger than 255 was needed in a program, the programmer had to write more machine code to use multiple words to achieve it. Unfortunately, programmers could not easily enlarge the word size for the CPUs of the time because physical circuits had to be laid on the chip to support every bit of the CPU's combined internal registers and memory units. Longer words required more circuits on the chip. As a result, personal computers have been equipped with 64-bit CPUs since 2000, such as the Intel Pentium 4 processor and the present-day Intel i9.
 
-Most non-IT people who observe modern computing devices, such as smartphones, gaming devices, Internet applications, cloud computing infrastructures, and now AI-enabled programs, cannot believe that CPUs are this raw at a fundamental programming level. The unpleasantness of working with "dumb" machine code drove programmers to innovate waves of new **human-centered features** in modern programming.
+Most non-IT people observing modern devices—smartphones, gaming systems, Internet applications, cloud infrastructures, and now AI-enabled programs—can't believe CPUs remain so raw at a fundamental level. The **tedium** of working with dumb **machine code** drove programmers to pioneer a series of **human-centered features** in modern programming.
 
 The first wave introduced **high-level programming languages**, such as FORTRAN (invented by IBM in 1957 as the first high-level language), COBOL, and BASIC. These languages allowed programmers to use user-friendly elements like English keywords, data types, variables, arithmetic expressions, and procedures (or functions).
 
@@ -66,7 +66,7 @@ Based on these observations about potential bottlenecks in programming the Inter
 
 # Part 2 — Lemina Programming Model
 
-In Part 1, we discussed the current state of programming and its direction. This knowledge helps us determine whether a new programming technique aligns with the evolutionary path and assists us in designing new ones. When creating a unified programming model, I analyzed the essential behaviors and mechanisms behind current programming techniques and compared them to how people interact to perform social and business functions. Then, I borrowed models and concepts from human social behavior to create a programming model reflecting these principles. The result was the **Lemina programming model**.
+In Part 1, we explored programming's current state and its future direction. This insight helps us judge whether a new technique aligns with the evolutionary path and guides us in crafting new ones. To develop a **unified programming model**, I analyzed the core behaviors and mechanisms of existing techniques, comparing them to how people collaborate in social and business settings. Then, I adapted models from human social behavior to design a programming model reflecting these principles. The result was the **Lemina Programming Model**.
 
 In a fundamental sense, a CPU executes a program by executing one statement (or line of code) at a time. To illustrate program execution to non-IT people, we can use the train, track, and sleeper analogy. A train represents a CPU, a track represents a program, and a sleeper represents machine code or a line of code. A train running over sleepers under the track represents a CPU executing code in the program.
 
@@ -118,7 +118,7 @@ It can be further abstracted as a one-way message-passing model where one messag
 
 * Sender → {Lemina service(s)} → lemina
 
-The Lemina model utilizes four foundational mechanisms to achieve the design goals mentioned above:
+The **Lemina Programming Model** leverages four foundational mechanisms to meet its design goals:
 
 * **Textual ID**    
 * **Reply-to**    
@@ -127,8 +127,7 @@ The Lemina model utilizes four foundational mechanisms to achieve the design goa
 
 ## Textual ID
 
-In the real world, recipients registered with postal services use their addresses instead of their real names for delivery. Addresses are associated with houses (more precisely, the lots on which homes are built), so addresses are deliverable where names are not.  
-In contrast, there is no difference between names and addresses in the digital world. Thus, lemina ID, name, and address are interchangeable terms in the Lemina model.
+In the real world, recipients registered with postal services use addresses for delivery instead of their real names. Addresses, tied to houses (or, more precisely, the lots they're built on), are **deliverable** where names aren't. In contrast, there is no difference between names and addresses in the digital world. Thus, lemina ID, name, and address are interchangeable terms in the Lemina model.
 
 The Lemina model defines lemina IDs as **textual**. Textual ID is the cornerstone of the Lemina model, enabling or improving several key factors:
 
@@ -287,7 +286,7 @@ Today, modern business applications are Internet-based, structured in two tiers 
 
 Parts 1 and 2 illustrated how programming evolved from the framework of a single computer to a network of computers and finally to modern Internet applications. In the past, high-level programming languages and the object model (OOP) were sufficient to accomplish basic and advanced programming tasks. However, in the age of Internet programming, the Lemina model offers a solution to the deficiencies in using current programming languages to create applications at the Internet scale.
 
-Each stage of programming evolution improves programming knowledge and functionality without completely replacing tried-and-true methods. High-level programming languages automate repetitive work on top of machine code. The object model creates a new form of code unit (as significant as the first cells coming to life to begin life's evolution) with internal logic implemented by high-level programming languages. In other words, all OO languages are high-level languages. The Lemina model builds on this evolutionary process by teaching objects to socialize and work together to form **societies of objects**, which is what we call the "Lemina way" of building programs.
+Each stage of programming's evolution enhances knowledge and functionality without fully replacing proven methods. **High-level programming languages** automate repetitive tasks atop **machine code**. The object model introduces a new code unit—as vital as the first cells sparking life's evolution—with logic rooted in high-level languages. In other words, all OO languages are high-level. The **Lemina Programming Model** advances this process, teaching objects to collaborate and form **societies of objects**, dubbed the Lemina way of building programs.
 
 Part 2 also demonstrated that by taking advantage of localization, one of the four core mechanisms of the Lemina model, we could implement a Lemina postal service that is backward compatible with OOP languages. Therefore, the Lemina model in backward-compatible mode can be used to build business applications like other OO languages.
 
@@ -386,7 +385,7 @@ The second set accepts one or more consecutive events and applies them to the sp
 
 The Lemina method for business application development creates an environment that can streamline any new addition or update (including data items, business logic, business process flows, test cases, etc.). In the real world, there are already development environments for software engineers called CI/CD, which stands for Continuous Integration and Continuous Deployment. However, the Lemina development environment further covers requirement management with its unique process automation and streamlining features.
 
-The Lemina method employs three techniques to achieve its goals. The first technique is an **all-in-one document**, which includes everything from requirements, data structures, business logic, and source code that implements the business logic. Ideally, it should be written using Markdown syntax, which is text-based (helpful in displaying Pull Request diffs) and straightforward enough for anyone familiar with standard office software to learn in just a few days. An all-in-one document represents and describes a Lemina account type or event type with multiple sections:
+The **Lemina method** employs three techniques to meet its goals. The first is an **all-in-one document**, encompassing requirements, data structures, business logic, and the source code that brings it to life. Ideally, it's written in *Markdown syntax*—text-based (easing Pull Request diffs) and simple enough for anyone familiar with office software to grasp in days. An all-in-one document represents and describes a Lemina account type or event type with multiple sections:
 
 * A form that visually represents data items    
   * Mainly for people's consumption (e.g., U.S. Tax Return Form 1040\)    
@@ -423,7 +422,7 @@ The PR mechanism doesn't prevent conflicts from happening beforehand but prevent
 
 Finally, a unit of work (e.g., a PR by a team in a sprint) will contain work regarding requirement elicitation or adjustment, design, coding, and testing, which covers the unit of work's entire life cycle. As a result, the unit of work is more independent and forms a feedback loop. This situation perfectly demonstrates agile principles.
 
-Inspired by the term *CVT* (continuously variable transmission), I call the fine granularity of agility offered by the Lemina method *CVA* (A for agility).
+Drawing from *CVT* (continuously variable transmission), I've named the Lemina method's fine-grained agility *CVA* (A for agility).
 
 The Lemina development method for business applications delivers benefits in process efficiency and performance management. Yet, the Lemina method aims to bring additional benefits to enterprises at the strategic level. It can be summed up as enabling business people to complete the full development of their applications up to functional reference implementations without needing IT people (or keeping them to a minimum). A **functional reference implementation** refers to the model implementation equipped with features for all functional requirements but no features for nonfunctional requirements, which will be left to IT people.
 

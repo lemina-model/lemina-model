@@ -2,7 +2,7 @@
 
 © Copyright 2025 Rex Young. All Rights Reserved.
 
-*This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible.*
+*This work has been submitted for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible.*
 
 ![contact](lemina-contact.jpg)
 

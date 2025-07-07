@@ -6,7 +6,7 @@
 
 ![contact](lemina-contact.jpg)
 
-# ABSTRACTION
+# ABSTRACT
 
 Modern software relies on objects, actors, and services, yet these paradigms fracture across process boundaries, leaving concurrency and distribution disjointed. Enter Lemina: a pioneering text-based interface that fuses their strengths into one seamless framework. Drawing from postal systems, Lemina names like "Admin\#Enroll" unify methods, mailboxes, and endpoints, backed by a frontend for synchronous/asynchronous calls and a backend executing across styles—native types within processes, JSON between them. Its inter-process edge excels in providing elegant, one-way async messaging, free of complex structures or protocols. Proof-of-concept implementations in JavaScript, Java, and C\# showcase its power: managing intra-process concurrency and scaling inter-process communication across the Internet. Beyond code, Lemina enables self-owned social media systems to run on today's Internet with user freedom at its core. For academics and engineers, this human-centered rethink demonstrates a viable path forward, offering potential from core programming to societal impact.
 

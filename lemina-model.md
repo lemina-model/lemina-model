@@ -1,4 +1,4 @@
-# Lemina: A Unified Interface for Objects, Actors, Services, and Beyond
+# Lemina: A Unified Object-Oriented Programming Model for Single-Process and Distributed Systems
 
 © Copyright 2025 Rex Young. All Rights Reserved.
 
